@@ -1,0 +1,35 @@
+{
+  "name": "@vladimirmogilev-azur/pixi-domino-core",
+  "author": "VladimirMogilev-azur",
+  "version": "0.0.1",
+  "description": "Pixi Domino Core",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "pubVersionUpdate": "npm version --commit-hooks false --git-tag-version false patch && npm publish",
+    "pub": "npm publish",
+    "prepublishOnly": "webpack --mode=production",
+    "generate-barrels": "barrelsby --delete --directory src --exclude window.d.ts"
+  },
+  "keywords": [
+    "pixi",
+    "test"
+  ],
+  "repository": "https://github.com/VladimirMogilev-azur/pixi-domino-core.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/apple-signin-api": "^1.5.3",
+    "barrelsby": "^2.8.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.8.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "pixi.js": "^6.5.1"
+  }
+}
