@@ -1,5 +1,5 @@
 {
-  "name": "@vladimirmogilev-azur/pixi-domino-core",
+  "name": "@azur-games/pixi-domino-core",
   "author": "VladimirMogilev-azur",
   "version": "0.0.1",
   "description": "Pixi Domino Core",
@@ -16,7 +16,7 @@
     "pixi",
     "test"
   ],
-  "repository": "https://github.com/VladimirMogilev-azur/pixi-domino-core.git",
+  "repository": "https://github.com/azur-games/pixi-domino-core.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
