@@ -17,7 +17,7 @@ export class DominoCalculator {
     }
 
     static getMaxWidthAndHeight(gameMode: GameMode): Point {
-        return gameMode == GameMode.PRO ? new Point(37, 11) : new Point(10, 60);//для портрета примерно Point(10,60)
+        return gameMode == GameMode.PRO ? new Point(37, 11) : new Point(40, 9);//для портрета примерно Point(10,60)
     }
 
     static getCoorsAndCorner(nextDominoItem: DominoItem, prevDominoItem: DominoItem, positionDirectionDirectionTurn: PositionDirectionDirectionTurn): CoorsAndCorner {
